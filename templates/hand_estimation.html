@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video input pose</title>
+</head>
+<div class="row mt-5">
+    <div class="col-md-6 offset-md-3">
+        <form action="/process_video_hands" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="videoFile">Upload Video File</label>
+                <input type="file" class="form-control-file" id="videoFile" name="video">
+            </div>
+            <button type="submit" class="btn btn-primary">Process Video</button>
+        </form>
+    </div>
+</div>
